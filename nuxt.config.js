@@ -95,7 +95,7 @@ module.exports = {
   * Modules
   */
   modules: [
-    '@nuxtjs/axios'
+    // '@nuxtjs/axios'
   ],
   /**
    * Axios Config

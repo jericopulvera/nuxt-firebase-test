@@ -31,7 +31,6 @@ export default {
   },
   computed: {
     authenticated() {
-      return true;
       return this.$netlifyIdentity.gotrue.currentUser();
     }
   }
