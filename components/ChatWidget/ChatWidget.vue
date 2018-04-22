@@ -109,7 +109,9 @@ export default {
   methods: {
     scrollToBottom() {
       this.$nextTick(() => {
-        this.$refs.messagesContainer.scrollTop = this.$refs.messagesContainer.scrollHeight;
+        if (this.$refs.messagesContainer) {
+          this.$refs.messagesContainer.scrollTop = this.$refs.messagesContainer.scrollHeight;
+        }
       });
     },
     inputHandler(e) {
