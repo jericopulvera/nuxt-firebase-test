@@ -91,8 +91,8 @@ export default {
     ChatWidgetMessage
   },
   data: () => ({
-    name: "Visitor",
-    email: "visitor@visitor.com",
+    name: "",
+    email: "",
     message: "",
     messages: [],
     showChat: false
