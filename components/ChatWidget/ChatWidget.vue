@@ -2,7 +2,7 @@
   <div>
     <div class="lg:w-1/4 w-full border shadow fixed pin-r pin-b z-50"
          style="margin-bottom: 6.5rem;"
-         v-if="showChat">
+         v-show="showChat">
       <div class="flex">
         <!-- Chat box -->
         <div class="w-full flex flex-col h-80"
@@ -100,12 +100,18 @@ export default {
 
   watch: {
     messages() {
-      this.$nextTick(() => {
-        this.$refs.messagesContainer.scrollTop = this.$refs.messagesContainer.scrollHeight;
-      });
+      this.scrollToBottom();
+    },
+    showChat() {
+      this.scrollToBottom();
     }
   },
   methods: {
+    scrollToBottom() {
+      this.$nextTick(() => {
+        this.$refs.messagesContainer.scrollTop = this.$refs.messagesContainer.scrollHeight;
+      });
+    },
     inputHandler(e) {
       if (e.keyCode === 13 && !e.shiftKey) {
         e.preventDefault();
