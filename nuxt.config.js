@@ -27,9 +27,19 @@ module.exports = {
         content: 'width=device-width, initial-scale=1'
       },
       {
+        hid: 'author',
+        name: 'author',
+        content: 'Jerico Pulvera.'
+      },
+      {
         hid: 'description',
         name: 'description',
         content: 'Fullstack Web Developer.'
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'Jerico Pulvera, Web Developer, Fullstack, Jerico, Pulvera, Eco Pulvera, Eco, Portfolio, Jerico Pulvera Portfolio, Eco Portfolio, Jerico Portfolio, Jerico Pulvera Portfolio'
       }
     ],
     link: [
