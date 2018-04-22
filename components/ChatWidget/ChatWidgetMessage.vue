@@ -7,11 +7,11 @@
          v-if="!isVisitor && !message.systemMessage && message.user "
          class="w-10 h-10 rounded mr-3" /> -->
     <!-- Chat message -->
-    <p class="font-light text-md relative justify-center p-4 w-4/5 rounded text-blue"
+    <p class="font-light text-md relative justify-center p-4 rounded text-blue"
        v-if="message.systemMessage">
       {{ message.message }}
     </p>
-    <p class="font-light text-md relative p-2 w-4/5 rounded text-white overflow-hidden break-words"
+    <p class="font-light text-md relative p-2 rounded text-white overflow-hidden break-words"
        :class="chatMessageClass"
        v-else>
       {{message.message}}
