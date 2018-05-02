@@ -1,0 +1,3 @@
+# Redirect domain aliases to primary domain
+https://jerico.xyz/* https://jericopulvera.com/:splat 301!
+https://www.jerico.xyz/* https://jericopulvera.com/:splat 301!
