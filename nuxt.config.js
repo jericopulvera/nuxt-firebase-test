@@ -39,7 +39,7 @@ module.exports = {
       {
         hid: 'keywords',
         name: 'keywords',
-        content: 'Jerico Pulvera, Web Developer, Fullstack, Jerico, Pulvera, Eco Pulvera, Eco, Portfolio, Jerico Pulvera Portfolio, Eco Portfolio, Jerico Portfolio, Jerico Pulvera Portfolio'
+        content: 'Jerico Pulvera, Web Developer, Full Stack, Jerico, Pulvera, Eco Pulvera, Eco, Portfolio, Jerico Pulvera Portfolio, Eco Portfolio, Jerico Portfolio, Jerico Pulvera Portfolio'
       }
     ],
     link: [
@@ -94,7 +94,7 @@ module.exports = {
   */
   loading: { color: '#744d82' },
   /**
-   * Plugins 
+   * Plugins
    */
   plugins: [
     // ssr: false to only include it on client-side

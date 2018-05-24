@@ -8,19 +8,20 @@
                alt="profile-picture">
         </div>
         <h1 class="text-black font-bold">JERICO A. PULVERA</h1>
-        <h2 class="text-black-light ">Web Developer</h2>
+        <h2 class="text-black-light text-muted">Full Stack Web Developer</h2>
       </div>
     </div>
     <div class="mt-8 mx-8 shadow-lg bt-1 border-grey rounded border border-transparent bg-grey-lightest relative block">
       <div class="flex-col flex justify-center text-center overflow-y-auto">
         <h1 class="mt-4 italic">PROJECTS</h1>
-        <div class="flex mb-4 flex-wrap">
-          <div class="flex-1 m-8">
+        <div class="flex mb-4 flex-wrap items-center justify-center">
+          <h2 class="m-8">Work in progress ~</h2>
+          <!-- <div class="flex-1 m-8">
             <ProjectCard/>
           </div>
           <div class="flex-1 m-8">
             <ProjectCard/>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

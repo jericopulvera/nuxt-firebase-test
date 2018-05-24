@@ -29,15 +29,11 @@
                       style="outline: none;"></textarea>
           </div>
         </div>
-        <div class="w-full flex flex-col h-80"
+        <div class="w-full flex flex-col h-80 "
              v-else>
-          <div class="px-6 py-4 flex-1 h-64 w-full bg-white">
+          <div class="px-6 py-4 flex-1 h-64 w-full bg-white content-center">
             <form @submit.prevent="startConversation">
               <div class="mb-4">
-                <label class="block text-grey-darker text-sm font-bold mb-2"
-                       for="email">
-                  Email
-                </label>
                 <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker"
                        id="email"
                        type="text"
@@ -45,23 +41,10 @@
                        v-model="email"
                        required>
               </div>
-              <div class="mb-6">
-                <label class="block text-grey-darker text-sm font-bold mb-2"
-                       for="name">
-                  Name
-                </label>
-                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker mb-3"
-                       id="name"
-                       type="text"
-                       placeholder="Enter your name"
-                       v-model="name"
-                       required>
-                <!-- <p class="text-red text-xs italic">Please choose a name.</p> -->
-              </div>
               <div class="flex items-center justify-between">
                 <button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded w-full"
                         type="submit">
-                  Start Conversation
+                  Submit
                 </button>
               </div>
             </form>
