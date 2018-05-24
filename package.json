@@ -30,6 +30,7 @@
     "tailwindcss": "^0.5.2"
   },
   "dependencies": {
+    "@nuxtjs/pwa": "^2.0.8",
     "firebase": "^4.13.1",
     "font-awesome": "^4.7.0",
     "netlify-identity-widget": "^1.4.11",

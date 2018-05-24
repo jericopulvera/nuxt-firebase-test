@@ -105,8 +105,12 @@ module.exports = {
   * Modules
   */
   modules: [
+    '@nuxtjs/pwa',
     // '@nuxtjs/axios'
   ],
+  icon: {
+    iconSrc: '/static/favicon.ico'
+  },
   /**
    * Axios Config
    */
