@@ -98,8 +98,8 @@ module.exports = {
    */
   plugins: [
     // ssr: false to only include it on client-side
-    { src: '~/plugins/netlify-identity.js', ssr: false },
-    { src: '~/plugins/firebase.js', ssr: false }
+    // { src: '~/plugins/netlify-identity.js', ssr: false },
+    // { src: '~/plugins/firebase.js', ssr: false }
   ],
   /**
   * Modules
